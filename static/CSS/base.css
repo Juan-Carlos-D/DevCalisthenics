@@ -81,6 +81,7 @@ header {
     -o-transform: translateY(-50%);
     cursor: pointer;
     z-index: 1500;
+    display: none;
 }
 
 nav {
@@ -222,7 +223,7 @@ li.move-right {
         background-color:#191919;
         z-index: 1000;
         align-items: initial;
-        /* display: none; */
+        display: none;
         overflow-y: scroll;
         width: 100%;
     }
@@ -258,5 +259,30 @@ li.move-right {
         max-height: initial;
     }
 
+    li.move-right {
+        margin: 0 auto 0 1rem;
+        line-height: initial;
+    }
+
+    .menu-icons {
+        display: block;
+    }
+
+
+    .fa-times {
+        display: none;
+    }
+
+    nav.active .fa-times {
+        display: block;
+    }
+
+    nav.active .fa-bars {
+        display: none;
+    }
+
+    nav.active .nav-list {
+        display: flex;
+    }
 
 }
