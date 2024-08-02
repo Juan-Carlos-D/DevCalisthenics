@@ -29,7 +29,7 @@ html {
 body {
     background: url('../assets/Base/ringggs.png') no-repeat center center fixed;
     background-size: cover;
-
+    /* min-height: 100vh; */
     overflow-x: hidden;
 }
 
