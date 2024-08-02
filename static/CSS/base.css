@@ -81,7 +81,6 @@ header {
     -o-transform: translateY(-50%);
     cursor: pointer;
     z-index: 1500;
-    display: none;
 }
 
 nav {
@@ -243,11 +242,11 @@ li.move-right {
         padding-right: 1rem;
     }
 
-    .sub-menu .sub-menu {
+    /* .sub-menu .sub-menu {
         border: none;
         overflow: hidden;
         margin-right: 0.4rem;
-    }
+    } */
 
     .sub-menu::before {
         display: none;
@@ -269,15 +268,15 @@ li.move-right {
     }
 
 
-    .fa-times {
+    .ri-close-line {
         display: none;
     }
 
-    nav.active .fa-times {
+    nav.active .ri-close-line {
         display: block;
     }
 
-    nav.active .fa-bars {
+    nav.active .ri-menu-line {
         display: none;
     }
 
