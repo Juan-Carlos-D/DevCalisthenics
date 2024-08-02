@@ -161,4 +161,43 @@ nav {
     position: absolute;
     border-top: 3px solid var(--main-color);
     background-color: #191919;
+    z-index: 100;
+    top: 16rem;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sub-menu::before {
+    content: '';
+    position: absolute;
+    top: -2.5rem;
+    left: 3rem;
+    border: 1.2rem solid transparent;
+    border-bottom: 1.2rem solid var(--main-color)
+}
+
+/* .sub-menu .sub-menu::before {
+    top: 0.9rem;
+    left: -2.5rem;
+    border: 1.2rem solid transparent;
+    border-right-color: var(--main-color);
+} 
+
+.sub-menu .sub-menu {
+    border-top: none;
+    border-left: 3px solid var(--main-color);
+    top: 0;
+    left: 160%;
+} */
+
+
+.nav-list li:hover>.sub-menu {
+    top: 8rem;
+    opacity: 1;
+    visibility: visible;
 }
