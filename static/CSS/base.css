@@ -223,6 +223,27 @@ li.move-right {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding: 20px;
+}
+
+.calisthenics h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.calisthenics p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+input[type="submit"] {
+    margin: 20px;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 

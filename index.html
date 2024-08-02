@@ -10,74 +10,7 @@
 </head>
 <body>
     
-    <!--Nav-->
-    <header>
-        <div class="container">
-            <nav>
-                <div class="menu-icons">
-                    <i class="ri-menu-line"></i>
-                    <i class="ri-close-line"></i>
-                </div>
-
-                <a href="#" class="logo">
-                    <img src="static/assets/Base/devcal.png">
-                </a>
-
-                <ul class="nav-list">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Programs <i class="fas fa-caret-down"></i></a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">Beginner Program</a>
-                            </li>
-                            <li>
-                                <a href="#">Intermediate Program</a>
-                            </li>
-                            <li>
-                                <a href="#">Advanced Program</a>
-                            </li>
-                            <li>
-                                <a href="#">Handstand Program</a>
-                            </li>
-                            <li>
-                                <a href="#">Muscle-Up Program</a>
-                            </li>
-                            <li>
-                                <a href="#">Pull-Up Program</a>
-                            </li>
-                            <li>
-                                <a href="#">Mobility Program</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Nutrition <i class="fas fa-caret-down"></i></a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">Macronutrients</a>
-                            </li>
-                            <li>
-                                <a href="#">Macros Calculator</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Blogs</a>
-                    </li>
-                    <li>
-                        <a href="#">FAQs</a>
-                    </li>
-                    <li class="move-right btn">
-                        <a href="#">Free E-Book</a>
-                    </li>
-                </ul>
-
-            </nav>
-        </div>
-    </header>
+    <div id="navbar"></div>
 
 
     <div class="calisthenics">
@@ -93,6 +26,29 @@
 
 
 
+    <script>
+        function loadHTML(id, url) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(id).innerHTML = data;
+                    // Initialize script after content is loaded
+                    if (id === 'navbar' || id === 'footer') {
+                        initScripts();
+                    }
+                })
+                .catch(error => console.error('Error loading HTML:', error));
+        }
+
+        function initScripts() {
+            // Your script initialization code
+            console.log('Scripts initialized');
+            // Add any script initialization code here
+        }
+
+        loadHTML('navbar', 'Templates/Base/navbar.html');
+        //loadHTML('footer', 'Templates/Base/footer.html');
+    </script>
     <script src="static/JavaScript/script.js"></script>
 </body>
 </html>
