@@ -10,12 +10,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #7878DD;
+
 }
 
 body, html {
     min-width: 100%;
-    min-height: 100vh;
 }
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: url('/static/assets/Base/ringggs.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body::before {
+    position: absolute;
+    min-height: 100vh;
+    content: '';
+    width: 100%;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+
 
 .logo img {
     height: 150px;
