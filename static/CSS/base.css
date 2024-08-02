@@ -201,3 +201,29 @@ nav {
     opacity: 1;
     visibility: visible;
 }
+
+/* .sub-menu li:hover > .sub-menu {
+    top: 0;
+    left: 100%;
+} */
+
+li.move-right {
+    margin: auto 0 auto auto;
+    line-height: initial;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-list {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: 100vh;
+        flex-direction: column;
+        background-color:#191919;
+        z-index: 1000;
+        align-items: initial;
+        /* display: none; */
+        overflow-y: scroll;
+        width: 100%;
+    }
+}
