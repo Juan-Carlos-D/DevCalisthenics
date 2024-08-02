@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body, html {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.logo img {
+    height: 150px;
+    width: auto;
+}
