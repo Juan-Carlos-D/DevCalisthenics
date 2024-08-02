@@ -33,7 +33,7 @@
                 .then(data => {
                     document.getElementById(id).innerHTML = data;
                     // Initialize script after content is loaded
-                    if (id === 'navbar' || id === 'footer') {
+                    if (id === 'navbar' || id === 'footer' || 'FAQ') {
                         initScripts();
                     }
                 })
@@ -47,6 +47,7 @@
         }
 
         loadHTML('navbar', 'Templates/Base/navbar.html');
+        loadHTML('FAQ', 'Templates/FAQs/FAQ.html')
         //loadHTML('footer', 'Templates/Base/footer.html');
     </script>
     <script src="static/JavaScript/script.js"></script>
