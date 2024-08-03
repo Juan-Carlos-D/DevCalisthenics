@@ -266,7 +266,7 @@ input[type="submit"]:hover {
 }
 
 footer {
-    background: #7878DD;
+    background: rgba(0, 0, 0, 0.2);
     text-align: center;
     text-transform: uppercase;
 
@@ -279,20 +279,26 @@ footer li {
     margin: 10px;
 }
 
+.footer-icons {
+
+}
 
 .footer-icons a {
-    background: #7878DD;
-    color: #272727;
+    background: #171C26;
+    color: #7878DD;
     padding: 15px;
     border-radius: 100px;
     display: flex;
     font-size: 25px;
-    cursor: pointer;;
+    cursor: pointer;
+    transition: .5s ease all;
 }
 
 .footer-icons a:hover {
-    background: #272727;
-    color: #7878DD;
+    background: #7878DD;
+    color: #171C26;
+    border: 1px solid #eee;
+    transition: 1s ease all;
 
 }
 
@@ -305,7 +311,7 @@ footer li {
 }
 
 .footer-copyright  {
-    background-color: #2d2d74;
+    border-top: 1px solid #eee;
     color: #fff;
     padding: 15px;
 
