@@ -231,12 +231,14 @@ li.move-right {
     font-size: 5rem;
     color: #fff;
     margin-bottom: 10px;
+    line-height: 4rem;
 }
 
 .calisthenics p {
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 15px;
+    line-height: 2.2rem;
 }
 
 
@@ -342,4 +344,30 @@ input[type="submit"]:hover {
 
         margin-right: 28rem;
     }
+}
+
+@media only screen and (max-width: 350px) {
+    .logo {
+        margin-right: 20rem;
+    }
+
+    .calisthenics h1 {
+        font-size: 3.5rem;
+    }
+    .calisthenics p {
+        font-size: 2.5rem;
+    }
+
+    input[type="submit"] {
+    margin: 20px;
+    padding: 10px 30px;
+    background: #171C26;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
 }
