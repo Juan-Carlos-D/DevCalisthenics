@@ -266,10 +266,10 @@ input[type="submit"]:hover {
 }
 
 footer {
-    background: #c4c4ff;
+    background: #7878DD;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 30px;
+
     margin-top: auto;
 }
 
@@ -305,10 +305,10 @@ footer li {
 }
 
 .footer-copyright  {
-    background-color: #7878DD;
+    background-color: #2d2d74;
     color: #fff;
     padding: 15px;
-    margin-top: 30px;
+
 }
 
 .footer-copyright p {
@@ -392,6 +392,10 @@ footer li {
         display: flex;
     }
 
+
+    .footer-icons, .footer-menu {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 500px) {
