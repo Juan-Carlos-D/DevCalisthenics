@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Copperplate', Fantasy;
 }
 
 :root {
@@ -224,26 +224,39 @@ li.move-right {
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 20px;
+    width: 90%;
 }
 
 .calisthenics h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     color: #fff;
     margin-bottom: 10px;
 }
 
 .calisthenics p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #fff;
+    margin-bottom: 15px;
 }
+
 
 input[type="submit"] {
     margin: 20px;
-    padding: 10px 20px;
-    background: var(--main-color);
+    padding: 15px 35px;
+    background: #171C26;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+
+input[type="submit"]:hover {
+    background:var(--main-color);
+    transition: 0.5s ease all;
+
 }
 
 
