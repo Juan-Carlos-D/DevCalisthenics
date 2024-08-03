@@ -279,9 +279,6 @@ footer li {
     margin: 10px;
 }
 
-.footer-icons {
-
-}
 
 .footer-icons a {
     background: #171C26;
@@ -289,25 +286,29 @@ footer li {
     padding: 15px;
     border-radius: 100px;
     display: flex;
-    font-size: 25px;
+    font-size: 3rem;
     cursor: pointer;
     transition: .5s ease all;
+    border: 1px solid #7878DD;
 }
 
 .footer-icons a:hover {
     background: #7878DD;
     color: #171C26;
     border: 1px solid #eee;
-    transition: 1s ease all;
+    transition: .5s ease all;
 
 }
 
 .footer-menu a {
     color: #fff;
+    font-size: 1.5rem;
+    transition: .5s ease all;
 }
 
 .footer-menu a:hover {
     color: #7878DD;
+    transition: .5s ease all;
 }
 
 .footer-copyright  {
