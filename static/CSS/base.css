@@ -261,7 +261,28 @@ input[type="submit"]:hover {
 
 }
 
+footer {
+    background: #c4c4ff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
 
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.footer-icons a {
+    background: #7878DD;
+    color: #272727;
+    padding: 15px;
+    border-radius: 100px;
+    display: flex;
+    font-size: 25px;
+}
 
 /*===================== MEDIA QUERIES ===========================*/
 
