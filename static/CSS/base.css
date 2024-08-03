@@ -281,14 +281,14 @@ footer li {
 
 .footer-icons a {
     background: #171C26;
-    color: #7878DD;
+    color: #eee;
     padding: 15px;
     border-radius: 100px;
     display: flex;
     font-size: 2rem;
     cursor: pointer;
     transition: .5s ease all;
-    border: 1px solid #7878DD;
+    border: 1px solid #eee;
 }
 
 .footer-icons a:hover {
