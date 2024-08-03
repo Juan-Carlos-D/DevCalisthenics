@@ -269,7 +269,6 @@ footer {
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     text-transform: uppercase;
-
     margin-top: auto;
 }
 
@@ -286,7 +285,7 @@ footer li {
     padding: 15px;
     border-radius: 100px;
     display: flex;
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
     transition: .5s ease all;
     border: 1px solid #7878DD;
