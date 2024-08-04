@@ -229,6 +229,10 @@ li.move-right {
     text-align: center;
     padding: 20px;
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .calisthenics h1 {
