@@ -3,13 +3,14 @@
     padding: 2rem;
     margin-top: 100px;  /* Adjust this value based on the header height */
     margin-bottom: 80px;  /* Adjust this value based on the footer height */
-    background-color: rgb(255, 255, 255); /* Slightly transparent background for visibility */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%; 
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    color:steelblue;
 }
 
 .faq-container h1 {
@@ -18,7 +19,7 @@
 }
 
 .questions-container {
-    background-color:cornflowerblue;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -26,6 +27,13 @@
     max-width: 600px; 
     margin-left: auto;
     margin-right: auto;
+    height: calc(100vh - 320px);
+    overflow-y: auto;
+}
+
+.questions-container h2 {
+    font-size: 2.5rem;
+    color: red;
 }
 
 /* Responsive adjustments */
