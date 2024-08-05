@@ -1,5 +1,6 @@
 /* Ensuring body takes full height */
 html, body {
+    height: 100%;
     margin: 0;
     overflow-y: auto;
 }
@@ -8,7 +9,7 @@ html, body {
 .main-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+
 }
 
 /* FAQ container styling */
