@@ -1,6 +1,5 @@
 /* Ensuring body takes full height */
 html, body {
-    height: 100vh;
     margin: 0;
     overflow-y: auto;
 }
@@ -45,7 +44,7 @@ html, body {
     margin-top: 20px;
     overflow-y: auto;
     letter-spacing: 0.2px;
-    height: 300px;
+    height: 250px;
 
 }
 
