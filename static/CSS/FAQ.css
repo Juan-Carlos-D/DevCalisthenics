@@ -64,7 +64,7 @@ html, body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .faq-container {
-        margin-top: 100px;  /* Adjust this value for smaller header on mobile */
+        margin-top: 90px;  /* Adjust this value for smaller header on mobile */
         max-width: 80%;
         padding: 1rem;
     }
