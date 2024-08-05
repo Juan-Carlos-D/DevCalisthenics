@@ -62,15 +62,29 @@ html, body {
 
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 900px) {
+    .main-wrapper {
+        height: 560px;
+    }
 
+    .macronutrients-container h1 {
+        font-size: 3.8rem;
+    }
+
+    .macro-title {
+        font-size: 2.8rem;
+        color: rgb(211, 42, 42);
+        margin-bottom: 10px;
+    }
+
+    .macro-description {
+        font-size: 1.8rem;
+    }
 }
 
-@media (min-width:768px) and (max-width: 1200px) {
 
-}
 
-@media (min-width: 1201px) {
+@media (min-width: 901px) {
     .main-wrapper {
         height: 550px;
 
