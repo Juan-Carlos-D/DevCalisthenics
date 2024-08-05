@@ -62,7 +62,7 @@ html, body {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .faq-container {
         margin-top: 90px;  /* Adjust this value for smaller header on mobile */
         max-width: 80%;
@@ -75,5 +75,13 @@ html, body {
     }
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+    .faq-container {
+        margin-top: 90px; 
+    }
 
+    .questions-container {
+        height: 500px;
+    }
+}
 
