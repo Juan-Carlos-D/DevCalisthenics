@@ -1,27 +1,39 @@
-body {
-    overflow: scroll;
+/* Ensuring body takes full height */
+html, body {
+    height: 100vh;
+    margin: 0;
+    overflow-y: auto;
 }
 
+/* Main wrapper for flexbox layout */
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
 
-.faq-container {
     padding: 2rem;
+}
+
+/* FAQ container styling */
+.faq-container {
     margin-top: 100px;  /* Adjust this value based on the header height */
-    margin-bottom: 80px;  /* Adjust this value based on the footer height */
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%; 
     max-width: 600px;
+    color: steelblue;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    color:steelblue;
+    padding: 1rem;
 }
 
 .faq-container h1 {
-    text-align: center;
     font-size: 4rem;
+    color: #007bff;
 }
 
+/* Question container styling */
 .questions-container {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 2rem;
@@ -31,8 +43,10 @@ body {
     max-width: 600px; 
     margin-left: auto;
     margin-right: auto;
-    height: calc(100vh - 400px);
+    margin-top: 20px;
     overflow-y: auto;
+    letter-spacing: 0.2px;
+
 }
 
 .questions-container h2 {
@@ -50,17 +64,15 @@ body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .faq-container {
-        padding: 1rem;
         margin-top: 100px;  /* Adjust this value for smaller header on mobile */
-        margin-bottom: 20px;  /* Adjust this value for smaller footer on mobile */
         max-width: 80%;
+        padding: 1rem;
     }
 
     .questions-container {
-        padding: 1rem;
         max-width: 80%;
+        padding: 1rem;
     }
-
 }
 
 
