@@ -1,5 +1,5 @@
 body {
-    overflow-y: auto;
+    overflow: scroll;
 }
 
 
@@ -31,7 +31,7 @@ body {
     max-width: 600px; 
     margin-left: auto;
     margin-right: auto;
-    height: calc(100vh - 320px);
+    height: calc(100vh - 400px);
     overflow-y: auto;
 }
 
