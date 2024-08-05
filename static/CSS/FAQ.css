@@ -1,3 +1,7 @@
+body {
+    overflow-y: auto;
+}
+
 
 .faq-container {
     padding: 2rem;
