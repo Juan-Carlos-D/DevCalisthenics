@@ -6,7 +6,24 @@
     background-color: rgb(255, 255, 255); /* Slightly transparent background for visibility */
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
+    width: 80%; 
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq-container h1 {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.questions-container {
+    background-color:cornflowerblue;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    max-width: 600px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -16,14 +33,16 @@
     .faq-container {
         padding: 1rem;
         margin-top: 100px;  /* Adjust this value for smaller header on mobile */
-        margin-bottom: 60px;  /* Adjust this value for smaller footer on mobile */
+        margin-bottom: 20px;  /* Adjust this value for smaller footer on mobile */
+        max-width: 80%;
     }
+
+    .questions-container {
+        padding: 1rem;
+        max-width: 80%;
+    }
+
 }
 
 
-
-.faq-container h1 {
-    text-align: center;
-    font-size: 2.5rem;
-}
 
