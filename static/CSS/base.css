@@ -163,6 +163,10 @@ nav {
     -o-transition: background-color 650ms;
 }
 
+.btn:hover {
+    background-color: #191919;
+}
+
 .sub-menu {
     width: 20rem;
     display: block;
@@ -219,6 +223,7 @@ li.move-right {
     margin: auto 0 auto auto;
     line-height: initial;
 }
+
 
 /* BODY */
 .calisthenics {
