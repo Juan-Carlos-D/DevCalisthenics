@@ -9,7 +9,6 @@ html, body {
 .main-wrapper {
     display: flex;
     flex-direction: column;
-
     padding: 2rem;
 }
 
@@ -29,8 +28,8 @@ html, body {
 }
 
 .faq-container h1 {
-    font-size: 4rem;
-    color: #007bff;
+    font-size: 3.5rem;
+    color: #7878DD;
 }
 
 /* Question container styling */
@@ -52,7 +51,7 @@ html, body {
 
 .questions-container h2 {
     font-size: 2.5rem;
-    color: red;
+    color: rgb(211, 42, 42);
     margin-bottom: 10px;
 }
 
