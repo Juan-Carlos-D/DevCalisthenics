@@ -115,7 +115,15 @@ html, body {
     .macros-container button {
         padding: 12px 22px;
         font-size: 2.0rem;
-
+    }  
+    .result h2 {
+        font-size: 3rem;
+    } 
+    .result p {
+        font-size: 2.0rem;    
+    }
+    .result .range {
+        font-size: 1.5rem;
     }
 }
 
