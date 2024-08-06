@@ -15,7 +15,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     overflow-y: auto; /* Add vertical scrollbar if content overflows */
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
     height: 470px;
     scrollbar-width: thin;
     scrollbar-color: #7878DD transparent;
@@ -36,6 +36,7 @@ html, body {
 
 .macros-container label {
     margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 .macros-container input, .macros-container select {
@@ -43,7 +44,8 @@ html, body {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.2rem;
+    color: #555;
 }
 
 .macros-container button {
@@ -52,7 +54,7 @@ html, body {
     color: #fff;
     border: none;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -71,23 +73,20 @@ html, body {
 }
 
 .result h2 {
-    font-size: 2em;
+    font-size: 2.5rem;
     color: #ff0000;
     margin-bottom: 10px;
 }
 
 .result p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #555;
 
 }
 
 .result .range {
-    font-size: 0.8em;
+    font-size: 1rem;
     color: #6e6e6e;
     margin-bottom: 10px;
 }
 
-select {
-    color: #555;
-}
