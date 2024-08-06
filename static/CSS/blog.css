@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    margin-top: 100px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Limit maximum width for responsiveness */
+    margin-left: auto;
+    margin-right: auto;
+}
