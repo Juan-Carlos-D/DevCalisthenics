@@ -61,6 +61,7 @@ html, body {
 
 .macros-container button:hover {
     background-color: #7878DD;
+    border: none;
 }
 
 .result .calories {
@@ -97,7 +98,7 @@ html, body {
 
 @media (min-width: 500px) and (max-width: 900px) {
     .macros-container {
-        height: 550px;    
+        height: 560px;    
     }
     .macros-container h1 {
         font-size: 3.5rem;
@@ -130,5 +131,34 @@ html, body {
 
 
 @media (min-width: 901px) {
-
+    .macros-container {
+        height: 550px;    
+    }
+    .macros-container h1 {
+        font-size: 4.0rem;
+    }
+    .macros-container label {
+        font-size: 2.5rem;
+    }
+    
+    .macros-container input, .macros-container select {
+        padding: 15px;
+        margin-bottom: 15px;
+        font-size: 2.0rem;
+    }
+    
+    .macros-container button {
+        padding: 15px 25px;
+        font-size: 2.5rem;
+    }  
+    .result h2 {
+        font-size: 3.5rem;
+    } 
+    .result p {
+        font-size: 2.5rem;    
+    }
+    .result .range {
+        font-size: 2.0rem;
+    }
+}
 }
