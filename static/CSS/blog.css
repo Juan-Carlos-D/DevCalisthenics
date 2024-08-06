@@ -15,6 +15,12 @@ html, body {
     max-width: 600px; /* Limit maximum width for responsiveness */
     margin-left: auto;
     margin-right: auto;
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    letter-spacing: 0.3px;
+    height: 470px;
+    scrollbar-width: thin;
+    scrollbar-color: #7878DD transparent;
+    
 }
 
 .blog-heading h3 {
