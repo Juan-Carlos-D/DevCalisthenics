@@ -97,9 +97,25 @@ html, body {
 
 @media (min-width: 500px) and (max-width: 900px) {
     .macros-container {
-        height: 550px;
+        height: 550px;    
+    }
+    .macros-container h1 {
+        font-size: 3.5rem;
+    }
+    .macros-container label {
+        font-size: 2.0rem;
+    }
+    
+    .macros-container input, .macros-container select {
+        padding: 12px;
+        margin-bottom: 12px;
+        font-size: 1.5rem;
+    }
+    
+    .macros-container button {
+        padding: 12px 22px;
+        font-size: 2.0rem;
 
-        
     }
 }
 
