@@ -16,3 +16,9 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.blog-heading h3 {
+    font-size: 3rem;
+    text-align: center;
+    color: #7878DD;
+}
