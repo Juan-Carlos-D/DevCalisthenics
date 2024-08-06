@@ -90,3 +90,21 @@ html, body {
     margin-bottom: 10px;
 }
 
+/*================== MEDIA QUERIES =====================*/
+@media (max-width: 480px) {
+
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+    .macros-container {
+        height: 550px;
+
+        
+    }
+}
+
+
+
+@media (min-width: 901px) {
+
+}
