@@ -48,7 +48,7 @@ html, body {
 
 .macros-container button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #171C26;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -58,7 +58,7 @@ html, body {
 }
 
 .macros-container button:hover {
-    background-color: #0056b3;
+    background-color: #7878DD;
 }
 
 .result .calories {
@@ -67,6 +67,7 @@ html, body {
 
 .result {
     margin-top: 20px;
+    text-align: center;
 }
 
 .result h2 {
@@ -85,4 +86,8 @@ html, body {
     font-size: 0.8em;
     color: #6e6e6e;
     margin-bottom: 10px;
+}
+
+select {
+    color: #555;
 }
