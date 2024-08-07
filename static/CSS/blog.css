@@ -197,3 +197,12 @@ html, body {
         line-height: 1.6rem;
     }
 }
+
+@media (min-width: 921px) {
+    #blog {
+        width: 100%; /* Adjust width as needed */
+        max-width: 1980px; /* Limit maximum width for responsiveness */
+        height: 470px;
+        
+    }   
+}
