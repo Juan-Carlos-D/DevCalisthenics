@@ -66,6 +66,7 @@ html, body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: .3s all ease;
 }
 
 .blog-img-link {
@@ -82,6 +83,7 @@ html, body {
     background-color: #ffffff;
     color:#171C26;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, .12);
+    animation: fade 0.3s;
 }
 
 .blog-box:hover .blog-box-img a {
@@ -89,5 +91,14 @@ html, body {
 }
 
 .blog-box:hover .blog-box-img img {
-    
+    filter: blur(3px);
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
