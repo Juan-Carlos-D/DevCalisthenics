@@ -204,3 +204,12 @@ html, body {
 
     }   
 }
+
+@media (min-width: 488px)  and (max-width:599px){
+    .blog-box-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+}
