@@ -23,11 +23,15 @@ html, body {
     
 }
 
+.blog-heading {
+    margin-top: 250px;
+}
+
 .blog-heading h3 {
     font-size: 3rem;
     text-align: center;
     color: #7878DD;
-    margin-top: 140px;
+
 }
 
 .blog-box-container {
@@ -135,7 +139,7 @@ html, body {
 
 .blog-author {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 20px;
 }
@@ -153,4 +157,20 @@ html, body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.blog-author-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-author-text strong {
+    color: #252525;
+    font-weight: 800;   
+}
+
+.blog-author-text span {
+    color: #797979;
+    font-size: 0.8rem;
+    font-weight: 500;   
 }
