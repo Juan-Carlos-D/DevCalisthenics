@@ -88,6 +88,12 @@ html, body {
     color:#171C26;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, .12);
     animation: fade 0.3s;
+    font-size: 12px;
+}
+
+.blog-img-link:hover {
+    color:#7878DD;
+    font-size: 15px;
 }
 
 .blog-box:hover .blog-box-img a {
@@ -126,6 +132,12 @@ html, body {
     font-weight: 800;
     line-height: 1.8rem;
     margin: 5px 0px 10px 0px;
+    transition: .3s ease all;
+}
+
+.blog-box-text a:hover {
+    color:#7878DD;
+    transition: .3s ease all;
 }
 
 .blog-box-text p {
