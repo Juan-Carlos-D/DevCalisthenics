@@ -186,8 +186,11 @@ html, body {
 }
 
 @media (max-width: 600px) {
+    #blog {
+        height: 100%;
+    }
     .blog-heading {
-        margin-top: 1250px;
+        margin-top: 2250px;
     }
     .blog-box-container {
         grid-template-columns: 1fr;  
@@ -202,7 +205,9 @@ html, body {
     #blog {
         width: 100%; /* Adjust width as needed */
         max-width: 1980px; /* Limit maximum width for responsiveness */
-        height: 470px;
-        
+        height: 100%;
     }   
+    .blog-heading {
+        margin-top: 650px;
+    }
 }
