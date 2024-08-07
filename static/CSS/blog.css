@@ -195,7 +195,7 @@ html, body {
         grid-template-columns: 1fr;  
     }
     .blog-heading h1 {
-        font-size: 1.6rem;
+        font-size: 2.5rem;
         line-height: 1.6rem;
     }
 }
