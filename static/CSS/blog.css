@@ -18,16 +18,18 @@ html, body {
     overflow-y: auto; /* Add vertical scrollbar if content overflows */
     letter-spacing: 0.3px;
     /* height: 470px; */
+    height: 100%;
     scrollbar-width: thin;
     scrollbar-color: #7878DD transparent;
     
 }
 
 .blog-heading {
-    margin-top: 250px;
+    margin-top: 2000px;
 }
 
-.blog-heading h3 {
+
+.blog-heading h1 {
     font-size: 3rem;
     text-align: center;
     color: #7878DD;
@@ -189,13 +191,11 @@ html, body {
     #blog {
         height: 100%;
     }
-    .blog-heading {
-        margin-top: 2250px;
-    }
+
     .blog-box-container {
         grid-template-columns: 1fr;  
     }
-    .blog-heading h3 {
+    .blog-heading h1 {
         font-size: 1.6rem;
         line-height: 1.6rem;
     }
