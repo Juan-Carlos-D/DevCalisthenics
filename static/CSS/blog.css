@@ -23,10 +23,6 @@ html, body {
     
 }
 
-.blog-heading {
-    margin-top: 20px;
-}
-
 
 .blog-heading h1 {
     font-size: 3rem;
@@ -74,6 +70,7 @@ html, body {
     object-fit: cover;
     object-position: center;
     transition: .3s all ease;
+    border-radius: 5px;
 }
 
 .blog-img-link {
@@ -119,12 +116,12 @@ html, body {
 .blog-box-text strong,
 .blog-box-text p {
     color:#a5a5a5;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .blog-box-text a {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #252525; 
     font-weight: 800;
     line-height: 1.8rem;
