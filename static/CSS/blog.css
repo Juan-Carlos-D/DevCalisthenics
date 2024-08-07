@@ -35,9 +35,10 @@ html, body {
 }
 
 .blog-box-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1050px;
+    width: 90%;
     margin-top: 50px;
 }
 
@@ -173,4 +174,26 @@ html, body {
     color: #797979;
     font-size: 0.8rem;
     font-weight: 500;   
+}
+
+/* ================= MEDIA QUERY ===============*/
+@media (max-width: 920px) {
+    .blog-box-container {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 0px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .blog-heading {
+        margin-top: 1250px;
+    }
+    .blog-box-container {
+        grid-template-columns: 1fr;  
+    }
+    .blog-heading h3 {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
 }
