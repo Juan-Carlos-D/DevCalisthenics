@@ -58,6 +58,7 @@ html, body {
     max-height: 300px;
     overflow: hidden;
     display: flex;
+    position: relative;
 }
 
 .blog-box-img img {
@@ -65,4 +66,11 @@ html, body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.blog-img-link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
 }
