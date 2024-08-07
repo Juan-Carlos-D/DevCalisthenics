@@ -27,6 +27,7 @@ html, body {
     font-size: 3rem;
     text-align: center;
     color: #7878DD;
+    margin-top: 140px;
 }
 
 .blog-box-container {
@@ -101,4 +102,25 @@ html, body {
     100%{
         opacity: 1;
     }
+}
+
+.blog-box-text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 20px 10px;
+}
+
+.blog-box-text strong,
+.blog-box-text p {
+    color:#a5a5a5;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.blog-box-text a {
+    font-size: 1.4rem;
+    color: #252525; 
+    font-weight: 800;
+    line-height: 1.8rem;
+    margin: 5px 0px 10px 0px;
 }
