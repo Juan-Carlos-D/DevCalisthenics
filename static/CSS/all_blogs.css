@@ -174,7 +174,7 @@ html, body {
 
 @media (min-width: 1025px) {
     #blog {
-        max-width: 1025px;
+        max-width: 750px;
 
     }
     .blog-post .blog-title {
