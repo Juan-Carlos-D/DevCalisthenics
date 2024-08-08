@@ -26,6 +26,7 @@ html, body {
     color: #333;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: 800;
 }
 
 .blog-post .blog-meta {
@@ -58,4 +59,16 @@ html, body {
     object-position: center;
     transition: .3s all ease;
     border-radius: 10px;
+}
+
+.blog-post .blog-content h2 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.blog-post .blog-content p {
+    margin-bottom: 20px;
 }
