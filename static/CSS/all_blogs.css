@@ -46,6 +46,7 @@ html, body {
     overflow: hidden;
     display: flex;
     position: relative;
+    margin: 20px 0;
 }
 
 .blog-content-img img {
@@ -56,5 +57,5 @@ html, body {
     object-fit: cover;
     object-position: center;
     transition: .3s all ease;
-    border-radius: 5px;
+    border-radius: 10px;
 }
