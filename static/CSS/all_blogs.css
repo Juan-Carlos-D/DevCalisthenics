@@ -99,3 +99,34 @@ html, body {
     background-color: #7878DD;
     transition: .3s ease all;
 }
+
+/* ============= MEDIA QUERY ==================== */
+@media (min-width: 488px)  and (max-width:600px) {
+    .blog-post .blog-title {
+        font-size: 2.5rem;
+    }
+    
+    .blog-post .blog-meta {
+        font-size: 1.2rem;
+    }
+    
+    .blog-post .blog-content {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        color: #444;
+    }
+    .blog-post .blog-content h2 {
+        color: #333;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    
+    .blog-post .back-to-blogs a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.8rem;
+    }   
+}
