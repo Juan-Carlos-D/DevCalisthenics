@@ -71,6 +71,7 @@ html, body {
 
 .blog-post .blog-content p {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .blog-post .back-to-blogs a {
