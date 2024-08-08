@@ -6,28 +6,33 @@ html, body {
 #blog {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    padding: 20px 0px;
+    padding: 20px 20px;
     margin-top: 80px; 
     background-color: rgba(255, 255, 255, 0.8);
-    width: 80%; /* Adjust width as needed */
-    max-width: 600px; /* Limit maximum width for responsiveness */
+    width: 80%; 
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    overflow-y: auto; 
     letter-spacing: 0.3px;
-    /* height: 470px; */
     scrollbar-width: thin;
     scrollbar-color: #7878DD transparent; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .blog-post .blog-title {
-    font-size: 2.5em;
+    font-size: 2rem;
     color: #333;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.blog-post .blog-meta {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .blog-content-img {
