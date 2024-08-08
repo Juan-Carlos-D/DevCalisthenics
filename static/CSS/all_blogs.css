@@ -72,3 +72,29 @@ html, body {
 .blog-post .blog-content p {
     margin-bottom: 20px;
 }
+
+.blog-post .back-to-blogs a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.back-to-blogs {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#171C26;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .3s ease all;
+}
+
+.back-button:hover {
+    background-color: #7878DD;
+    transition: .3s ease all;
+}
