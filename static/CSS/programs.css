@@ -33,3 +33,64 @@ html, body {
     color: #7878DD;
     word-wrap: normal;
 }
+
+/*================= INTRO SECTION CONTAINER ==================*/
+
+.intro-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.intro-left {
+    flex: 1; 
+}
+
+.intro-left img {
+    width: 100%;
+    height: auto; 
+    max-width: 100%; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.intro-right {
+    flex: 1;
+    text-align: justify; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.program-name {
+    letter-spacing: 0.05rem;
+    color: rgb(120, 120, 221);
+    font-size: 1.1rem;
+}
+
+.span-words {
+    letter-spacing: 0.03rem;
+    color: rgb(120, 120, 221);
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px; /* Add space above buttons */
+    background-color: #171C26;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .3s ease all;
+}
+
+.btn-download:hover {
+    background-color: #7878DD;
+    transition: .3s ease all;
+}
