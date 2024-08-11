@@ -103,13 +103,13 @@ html, body {
     align-items: center;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px; /* Optional: rounded corners */
+    border-radius: 10px; 
 }
 
 .program-goals-container h2 {
     font-size: 3rem;
     color: #7878DD;
-    margin-bottom: 20px; /* Add space below heading */
+    margin-bottom: 20px; 
     text-align: center;
 }
 
@@ -169,4 +169,90 @@ html, body {
     color:#eee;
     font-size:2rem;
     font-weight: 400;
+}
+
+
+/*================= PROGRAM EQUIPMENT SECTION CONTAINER ==================*/
+.program-equipment-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 50px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.program-equipment-section-container .section-heading {
+    font-size: 3rem;
+    color: #7878DD;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.program-section,
+.equipment-section {
+    width: 100%; 
+    max-width: 400px; 
+    height: 300px;
+    box-sizing: border-box; 
+    background-color: #171C26;
+    border: 1px solid rgb(120, 120, 221);
+    color: #eee;
+    border-radius: 10px;
+    padding: 20px; 
+    text-align: left;
+    overflow: hidden; 
+    margin-bottom: 20px;
+    
+}
+
+.program-section h2,
+.equipment-section h2 {
+    font-size: 2.5rem;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.program-section .included-list,
+.equipment-section .equipment-list {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding-left: 1rem; 
+    margin: 0; 
+    overflow-y: auto; 
+    height: calc(100% - 2.5rem); /* Adjust height to fit within the container, accounting for padding and title */
+}
+
+.program-section .included-list li,
+.equipment-section .equipment-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.program-section .included-list li:before,
+.equipment-section .equipment-list li:before {
+    content: "\2714"; 
+    color: #ffffff; 
+    display: inline-block;
+    width: 1rem;
+    margin-right: 0.5rem; 
+}
+
+.program-section .included-list li:first-child,
+.equipment-section .equipment-list li:first-child {
+    margin-top: 10px;
+}
+
+.program-section:hover,
+.equipment-section:hover {
+    background-color: #7878DD;
+    border: 1px solid #eee;
 }
