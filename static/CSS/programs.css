@@ -101,7 +101,6 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px; /* Optional: rounded corners */
