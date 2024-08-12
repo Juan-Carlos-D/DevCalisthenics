@@ -276,3 +276,14 @@ html, body {
     margin-bottom: 20px; 
     text-align: center;
 }
+
+.level-up-section-container p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.level-up-section-container strong,
+.level-up-section-container span {
+    font-size: 1.6rem;
+}
