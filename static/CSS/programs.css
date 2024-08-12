@@ -292,17 +292,30 @@ html, body {
 .wrapper {
     max-width: 1200px;
     padding: 0 10px;
+    position: relative;
 }
 
 .wrapper i {
+    top: 50%;
     background: #fff;
     height: 46px;
     width: 46px;
+    position: absolute;
     text-align: center;
     line-height: 46px;
     border-radius: 50%;
     cursor: pointer;
     font-size: 1.2rem;
+    transform: translateY(-50%);
+}
+
+
+.wrapper i:first-child {
+    left: -15px;
+}
+
+.wrapper i:last-child {
+    right: -15px;
 }
 
 .wrapper .carousel {
