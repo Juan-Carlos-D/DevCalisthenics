@@ -288,3 +288,40 @@ html, body {
 .level-up-section-container span {
     font-size: 1.6rem;
 }
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+.wrapper i {
+    background: #fff;
+    height: 46px;
+    width: 46px;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel img {
+    height: auto;
+    object-fit: cover;
+    margin-left: 14px;
+    width: 100%;
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
