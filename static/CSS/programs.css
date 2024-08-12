@@ -234,7 +234,7 @@ html, body {
     margin-bottom: 10px;
     color: #ffffff;
     display: flex;
-    align-items: center; /* Align items vertically */
+    align-items: center;
 }
 
 .program-section .included-list li:before,
