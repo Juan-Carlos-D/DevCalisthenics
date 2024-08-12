@@ -207,7 +207,7 @@ html, body {
     text-align: left;
     overflow: hidden; 
     margin-bottom: 20px;
-    
+    transition: .3s ease all;
 }
 
 .program-section h2,
@@ -243,7 +243,7 @@ html, body {
     color: #ffffff; 
     display: inline-block;
     width: 1rem;
-    margin-right: 0.5rem; 
+    margin-right: 1rem; 
 }
 
 .program-section .included-list li:first-child,
@@ -255,4 +255,5 @@ html, body {
 .equipment-section:hover {
     background-color: #7878DD;
     border: 1px solid #eee;
+    transition: .3s ease all;
 }
