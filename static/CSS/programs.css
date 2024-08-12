@@ -44,7 +44,7 @@ html, body {
     margin: 50px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px; /* Optional: rounded corners */
+    border-radius: 10px;
 }
 
 .intro-left {
@@ -256,4 +256,23 @@ html, body {
     background-color: #7878DD;
     border: 1px solid #eee;
     transition: .3s ease all;
+}
+
+/*================= LEVEL UP CONTAINER ==================*/
+.level-up-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px; 
+    width: 100%;
+}
+
+.level-up-section-container h2 {
+    font-size: 3rem;
+    color: #7878DD;
+    margin-bottom: 20px; 
+    text-align: center;
 }
