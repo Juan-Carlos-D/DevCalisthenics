@@ -323,6 +323,7 @@ html, body {
     cursor: pointer;
     white-space: nowrap;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .carousel img {
