@@ -350,6 +350,22 @@ html, body {
     margin-left: 0px;
 }
 
+/*=========== CTA BTN SECTION ==============*/
+.cta-btn {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-btn h3 {
+    font-size: 1.5rem;
+    color: #7878DD;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 /*================ MEDIA ==================*/
 @media (max-width: 900px) {
     .carousel img {
