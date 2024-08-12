@@ -3,14 +3,18 @@ firstImg = carousel.querySelectorAll("img")[0];
 arrowIcons = document.querySelectorAll('.wrapper i');
 
 let isDragStart = false, prevPageX, prevScrollLeft;
-let firstImgWidth = firstImg.clientWidth + 14;
+
+
 
 const showHideIcons = () => {
+    let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
     arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
+    arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
 }
 
 arrowIcons.forEach(icon=> {
     icon.addEventListener("click", () => {
+        let firstImgWidth = firstImg.clientWidth + 14;
         carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
        setTimeout(() => showHideIcons(), 60);
     })
@@ -28,6 +32,7 @@ const dragging = (e) => {
     carousel.classList.add("dragging");
     let positionDiff = e.pageX - prevPageX;
     carousel.scrollLeft = prevScrollLeft - positionDiff;
+    showHideIcons();
 }
 
 const dragStop = () => {
@@ -35,6 +40,7 @@ const dragStop = () => {
     carousel.classList.remove("dragging");
 }
 
-carousel.addEventListener("mousemove", dragStart);
+carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 carousel.addEventListener("mouseup", dragStop);
+carousel.addEventListener("mouseleave", dragStop);
