@@ -251,8 +251,8 @@ html, body {
     margin-top: 10px;
 }
 
-.program-section:hover,
-.equipment-section:hover {
+.program-equipment-section-container .program-section:hover,
+.program-equipment-section-container .equipment-section:hover {
     background-color: #7878DD;
     border: 1px solid #eee;
     transition: .3s ease all;
