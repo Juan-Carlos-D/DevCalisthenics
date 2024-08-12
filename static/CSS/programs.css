@@ -312,6 +312,7 @@ html, body {
 
 .wrapper i:first-child {
     left: -15px;
+    display: none;
 }
 
 .wrapper i:last-child {
@@ -324,6 +325,15 @@ html, body {
     white-space: nowrap;
     overflow: hidden;
     scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
 }
 
 .carousel img {
