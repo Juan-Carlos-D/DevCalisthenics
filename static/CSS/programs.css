@@ -198,7 +198,7 @@ html, body {
     width: 100%; 
     max-width: 400px; 
     height: 300px;
-    box-sizing: border-box; 
+    /* box-sizing: border-box;  */
     background-color: #171C26;
     border: 1px solid rgb(120, 120, 221);
     color: #eee;
