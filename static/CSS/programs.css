@@ -323,14 +323,14 @@ html, body {
     cursor: pointer;
     white-space: nowrap;
     overflow: hidden;
-
 }
 
 .carousel img {
     height: auto;
     object-fit: cover;
     margin-left: 14px;
-    width: calc(100% / 3);
+    width: calc(100% / 2.05);
+    border-radius: 10px;
 }
 
 .carousel img:first-child {
