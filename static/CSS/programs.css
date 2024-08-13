@@ -359,11 +359,24 @@ html, body {
     align-items: center;
 }
 
-.cta-btn h3 {
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+form h3 {
     font-size: 1.5rem;
     color: #7878DD;
     margin-bottom: 10px;
     text-align: center;
+}
+
+input[type="email"] {
+    padding: 12px 7px;
+    width: 90%;
+    font-size: 1.1rem;
 }
 
 /*================ MEDIA ==================*/
