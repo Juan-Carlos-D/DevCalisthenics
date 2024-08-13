@@ -397,6 +397,12 @@ input[type="submit"]:hover {
     }
 }
 
+@media (max-width: 550px) {
+    .carousel img {
+        width: 100%;
+    }
+}
+
 @media (min-width: 425px) and (max-width: 550px) {
     .program-heading h1 {
         font-size: 3.7rem;
@@ -419,9 +425,7 @@ input[type="submit"]:hover {
         font-size:2.4rem;
     }
 
-    .carousel img {
-        width: 100%;
-    }
+
 }
 
 
