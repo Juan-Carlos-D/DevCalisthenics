@@ -408,6 +408,16 @@ input[type="submit"]:hover {
     .program-name {
         font-size: 1.4rem;
     }
+    .btn-download {
+        font-size: 1.8rem;
+    }
+    
+    .program-goals-container h2 {
+        font-size: 3.4rem;
+    }
+    .goal-box-text strong {
+        font-size:2.4rem;
+    }
 
     .carousel img {
         width: 100%;
