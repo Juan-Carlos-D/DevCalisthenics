@@ -9,7 +9,7 @@ html, body {
     align-items: center;
     padding: 50px 0px;
     margin-top: 80px; 
-    background-color: rgba(216, 213, 213, 0.8);
+    /* background-color: rgba(216, 213, 213, 0.8); */
     width: 100%;
     max-width: 800px; 
     margin-left: auto;
@@ -397,8 +397,22 @@ input[type="submit"]:hover {
     }
 }
 
-@media (max-width: 550px) {
+@media (min-width: 425px) and (max-width: 550px) {
+    .program-heading h1 {
+        font-size: 3.7rem;
+    }
+    .intro-right {
+        font-size: 1.4rem;
+    }
+
+    .program-name {
+        font-size: 1.4rem;
+    }
+
     .carousel img {
         width: 100%;
     }
 }
+
+
+/* ================= MEDIA QUERY ===============*/
