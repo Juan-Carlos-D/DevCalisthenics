@@ -419,13 +419,27 @@ input[type="submit"]:hover {
     }
     
     .program-goals-container h2 {
-        font-size: 3.4rem;
+        font-size: 3.5rem;
     }
     .goal-box-text strong {
         font-size:2.4rem;
     }
-
-
+    .program-equipment-section-container .section-heading {
+        font-size: 3.5rem;
+    }
+    .program-section h2,
+    .equipment-section h2 {
+        font-size: 2.8rem;
+    } 
+    .program-section .included-list li,
+    .equipment-section .equipment-list li {
+        font-size: 1.5rem;
+    }
+    .program-section .included-list li:before,
+    .equipment-section .equipment-list li:before {
+        margin-right: 1.1rem; 
+    }
+    
 }
 
 
