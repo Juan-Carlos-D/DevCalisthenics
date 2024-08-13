@@ -379,6 +379,17 @@ input[type="email"] {
     font-size: 1.1rem;
 }
 
+input[type="submit"] {
+    padding: 15px 10px;
+    width: 60%;
+    transition: .3s ease all;
+}
+
+input[type="submit"]:hover {
+    background-color: #7878DD;
+    transition: .3s ease all;
+}
+
 /*================ MEDIA ==================*/
 @media (max-width: 900px) {
     .carousel img {
