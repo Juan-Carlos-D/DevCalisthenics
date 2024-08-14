@@ -469,7 +469,66 @@ input[type="submit"]:hover {
 }
 
 @media (min-width: 551px) and (max-width: 900px) {
+    .program-heading h1 {
+        font-size: 3.9rem;
+    }
+    .intro-right {
+        font-size: 1.7rem;
+    }
+
+    .program-name {
+        font-size: 1.9rem;
+    }
+    .btn-download {
+        font-size: 2rem;
+    }
     
+    .program-goals-container h2 {
+        font-size: 3.7rem;
+    }
+    .goal-box-text strong {
+        font-size:2.6rem;
+    }
+    .program-equipment-section-container .section-heading {
+        font-size: 3.8rem;
+    }
+    .program-section h2,
+    .equipment-section h2 {
+        font-size: 3rem;
+    } 
+    .program-section .included-list li,
+    .equipment-section .equipment-list li {
+        font-size: 1.6rem;
+    }
+    .program-section .included-list li:before,
+    .equipment-section .equipment-list li:before {
+        margin-right: 1.2rem; 
+    }
+    .level-up-section-container h2 {
+        font-size: 3.7rem;
+    }
+    .level-up-section-container p {
+        font-size: 1.8rem;
+
+    }
+    .level-up-section-container strong,
+    .level-up-section-container span {
+        font-size: 2rem;
+    }
+    .wrapper i {
+        font-size: 1.7rem;
+    }
+    form h3 {
+        font-size: 3rem;
+    }
+    input[type="email"] {
+        width: 90%;
+        font-size: 2rem;
+    }
+    input[type="submit"] {
+        width: 60%;
+        font-size: 2.2rem;
+    }
 }
 
 /* ================= MEDIA QUERY ===============*/
