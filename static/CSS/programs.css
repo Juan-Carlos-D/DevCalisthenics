@@ -532,3 +532,13 @@ input[type="submit"]:hover {
 }
 
 /* ================= MEDIA QUERY ===============*/
+@media (min-width: 901px) {
+    #program{
+        max-width: 1250px; 
+    }
+    .program-heading h1 {
+        font-size: 4rem;
+    }
+
+    
+}
