@@ -86,7 +86,7 @@ html, body {
     background-color: #171C26;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: .3s ease all;
     text-align: center;
 }
@@ -533,7 +533,7 @@ input[type="submit"]:hover {
 }
 
 /* ================= MEDIA QUERY ===============*/
-@media (min-width: 901px) {
+@media (min-width: 901px) and (max-width: 1200px) {
     #program{
         max-width: 1250px; 
     }
