@@ -540,5 +540,60 @@ input[type="submit"]:hover {
         font-size: 4rem;
     }
 
+    .intro-section-container {
+        flex-direction: row;
+    }
+
+    .intro-left {
+        flex: 1; 
+        margin: 20px;
+    }
+
+    .intro-left img {
+        width: 100%;
+        height: auto; 
+        max-width: 100%; 
+        border-radius: 10px;
+
+    }
+
+    .intro-right {
+        flex: 1;
+        text-align: justify; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .program-name {
+        letter-spacing: 0.05rem;
+        color: rgb(120, 120, 221);
+        font-size: 1.5rem;
+    }
+
+    .span-words {
+        letter-spacing: 0.03rem;
+        color: rgb(120, 120, 221);
+    }
+
+    .btn-download {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px; /* Add space above buttons */
+        background-color: #171C26;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: .3s ease all;
+    }
+
+    .btn-download:hover {
+        background-color: #7878DD;
+        transition: .3s ease all;
+    }
     
 }
