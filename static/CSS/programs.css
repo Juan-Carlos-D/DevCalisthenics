@@ -709,13 +709,12 @@ input[type="submit"]:hover {
 
     .program-goals-container {
         padding: 20px 20px 50px;
+        background-color: transparent;
+        width: 80%;
     }
 
     .program-goals-container h2 {
-        font-size: 3.3rem;
-        color: #7878DD;
-        margin-bottom: 20px; 
-        text-align: center;
+        font-size: 3.5rem;
     }
     .goals-box-container {
         flex-direction: row;
@@ -728,6 +727,7 @@ input[type="submit"]:hover {
         width: 100%;
         height: 100%;
     }
+
     .goal-box-text {
         display: flex;
         justify-content: center;
@@ -735,10 +735,10 @@ input[type="submit"]:hover {
         line-height: 2.5rem;
     }
     .goal-box-text strong {
-        font-size:2.3rem;
+        font-size:2.5rem;
     }
     .program-equipment-section-container .section-heading {
-        font-size: 3.4rem;
+        font-size: 3.5rem;
         color: #7878DD;
         margin-bottom: 20px; 
         text-align: center;
