@@ -737,11 +737,11 @@ input[type="submit"]:hover {
     .goal-box-text strong {
         font-size:2.5rem;
     }
+    .program-equipment-section-container {
+        background-color: transparent;
+    }
     .program-equipment-section-container .section-heading {
         font-size: 3.5rem;
-        color: #7878DD;
-        margin-bottom: 20px; 
-        text-align: center;
     }
     .section-wrapper {
         display: flex;
@@ -750,10 +750,10 @@ input[type="submit"]:hover {
     .program-section,
     .equipment-section {
         width: 100%; 
-        max-width: 500px; 
-        height: 300px;
+        max-width: 700px; 
+        max-height: 500px;
         padding: 20px; 
-        margin: 0 15px 20px;
+        margin: 0 25px 20px;
     }
     .program-section h2,
     .equipment-section h2 {
