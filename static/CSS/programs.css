@@ -751,7 +751,8 @@ input[type="submit"]:hover {
     .equipment-section {
         width: 100%; 
         max-width: 700px; 
-        max-height: 500px;
+        height: 40vh;
+
         padding: 20px; 
         margin: 0 25px 20px;
     }
@@ -761,41 +762,48 @@ input[type="submit"]:hover {
     }
     .program-section .included-list li,
     .equipment-section .equipment-list li {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .program-section .included-list li:before,
     .equipment-section .equipment-list li:before {
-        margin-right: 1.1rem; 
+        margin-right: 1.4rem; 
     }
 
+
+    .level-up-section-container {
+        background-color: transparent;
+        color: #eee;
+    }
     .level-up-section-container h2 {
         font-size: 3.5rem;
     }
     .level-up-section-container p {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .level-up-section-container strong,
     .level-up-section-container span {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .wrapper i {
         height: 50px;
         width: 50px;
         line-height: 50px;
-        font-size: 1.6rem;
+        font-size: 2rem;
+        color:#171C26;
+        background-color: #eee;
     }
     form h3 {
-        font-size: 2.6rem;
-        margin-bottom: 13px;
+        font-size: 3rem;
+        margin-bottom: 15px;
     }
 
     input[type="email"] {
-        padding: 14px 9px;
+        padding: 16px 11px;
         width: 90%;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     input[type="submit"] {
-        padding: 15px 10px;
+        padding: 17px 12px;
         width: 60%;
     }  
 }
