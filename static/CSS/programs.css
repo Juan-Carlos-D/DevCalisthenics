@@ -23,7 +23,7 @@ html, body {
 
 .program-heading {
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
     padding: 50px 30px;
 }
 
@@ -43,7 +43,8 @@ html, body {
     align-items: center;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    color: #eee;
     border-radius: 10px;
 }
 
@@ -103,7 +104,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
     border-radius: 10px; 
 }
 
@@ -180,7 +181,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
     border-radius: 10px;
     margin: 50px 0;
     width: 100%;
@@ -266,7 +267,8 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    color: #eee;
     border-radius: 10px; 
     width: 100%;
     box-sizing: border-box;
