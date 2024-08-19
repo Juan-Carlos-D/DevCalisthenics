@@ -335,6 +335,16 @@ footer li {
 }
 
 
+#custom-chatbox-container {
+    #custom-chatbox-container {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 400px; /* Adjust width as needed */
+        height: auto;
+    }
+    
+}
 /*===================== MEDIA QUERIES ===========================*/
 
 @media only screen and (max-width: 900px) {
