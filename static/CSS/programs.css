@@ -24,7 +24,7 @@ html, body {
 .program-heading {
     border-radius: 20px;
     background-color: transparent;
-    padding: 50px 30px;
+    padding: 20px 30px;
 }
 
 .program-heading h1 {
@@ -41,7 +41,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: transparent;
     color: #eee;
@@ -90,6 +90,7 @@ html, body {
     border-radius: 10px;
     transition: .3s ease all;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 .btn-download:hover {
